@@ -1,0 +1,2 @@
+{"id":"example-1","text":"The application stores the submitted file and records its checksum while returning a warning when validation fails."}
+{"id":"example-2","text":"The service accepts version 2.1 and keeps the original value when the input is invalid."}

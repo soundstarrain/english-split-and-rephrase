@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "English Split and Rephrase"
+message: "If you use this software, please cite the repository and the BiSECT paper."
+type: software
+version: 0.1.0
+date-released: 2026-10-31
+license: Apache-2.0
+authors:
+  - name: "English Split and Rephrase contributors"
