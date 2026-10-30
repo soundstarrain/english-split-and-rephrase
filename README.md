@@ -14,6 +14,14 @@ The code repository contains no model weights or training data. The weights
 are distributed in the two Hugging Face model
 repositories listed in `MODEL_REPOSITORIES.md`.
 
+## Project repositories
+
+| Repository | Purpose |
+|---|---|
+| [Inference code](https://github.com/soundstarrain/english-split-and-rephrase) | Python pipeline, command-line interface, and output validation |
+| [Gate model](https://huggingface.co/soundstarrain/english-split-and-rephrase-gate) | Decides whether a sentence should be split again |
+| [Rewriter model](https://huggingface.co/soundstarrain/english-split-and-rephrase-rewriter) | Rewrites one sentence into two related parts |
+
 Detailed input/output formats and processing options are in
 [`docs/usage.md`](docs/usage.md). The publication commands are in
 [`PUBLISHING.md`](PUBLISHING.md).
