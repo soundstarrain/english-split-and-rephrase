@@ -5,10 +5,10 @@ complex English sentences into shorter, meaning-related sentences.
 
 The pipeline uses two Hugging Face models:
 
-1. `english-split-and-rephrase-gate` decides whether a sentence should be
-   split again.
-2. `english-split-and-rephrase-rewriter` rewrites one sentence into two
-   parts separated by `<SEP>`.
+1. [English Split and Rephrase Gate](https://huggingface.co/soundstarrain/english-split-and-rephrase-gate)
+   decides whether a sentence should be split again.
+2. [English Split and Rephrase Rewriter](https://huggingface.co/soundstarrain/english-split-and-rephrase-rewriter)
+   rewrites one sentence into two parts separated by `<SEP>`.
 
 The code repository contains no model weights or training data. The weights
 are distributed in the two Hugging Face model

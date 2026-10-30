@@ -40,5 +40,7 @@ The output keeps the original `text`, writes the final sentence leaves to
 The rewriter model uses the input prefix `split: ` and emits exactly two
 parts for a valid split.
 
-The same pipeline is available as a Python API and as the installed
-`split-and-rephrase` console command.
+Models: [Gate](https://huggingface.co/soundstarrain/english-split-and-rephrase-gate),
+[Rewriter](https://huggingface.co/soundstarrain/english-split-and-rephrase-rewriter).
+The [GitHub repository](https://github.com/soundstarrain/english-split-and-rephrase)
+provides the Python API and `split-and-rephrase` console command.
